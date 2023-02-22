@@ -56,7 +56,7 @@
   <div class="hero min-h-screen">
   <div class="hero-content card w-96 bg-base-100 shadow-xl">
     <div class="card-body items-center text-center">
-      <h2 class="card-title">Todo List</h2>
+      <h2 class="card-title">TodoList</h2>
       <input type="text" placeholder="New todo" class="addTodoInput input input-bordered w-full max-w-xs" />
       <button @click="addTodo" class="addBtn btn btn-primary">Add</button>
       <button @click="finishEdit" class="editBtn btn btn-primary btn-disabled">Finish Edit</button>
